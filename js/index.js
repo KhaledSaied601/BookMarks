@@ -40,7 +40,11 @@ function SumbitClick() {
     localStorage.setItem('BookMarks', JSON.stringify(SiteList))
     //Clear Conent
     ClearContent()
-    regexTest();
+
+
+    document.getElementById('Submit').classList.add('disabled')
+    document.getElementById('BookMarkerName').classList.remove('is-invalid', 'is-valid');
+    document.getElementById('WebSiteURL').classList.remove('is-invalid', 'is-valid');
 
 
 }

@@ -124,6 +124,7 @@ function regexTest(elementId, regexname, alertId) {
     }
 
     enableButton();
+    console.log('s')
 
 }
 

@@ -73,7 +73,7 @@
                     <div class="mb-3">
                         <i class="fa-solid fa-save"></i>
                         <label for="BookMarkerName" class="form-label">Site Name</label>
-                        <input type="text" onchange="regexTest('BookMarkerName','name','nameAlert')"
+                        <input type="text" oninput="regexTest('BookMarkerName','name','nameAlert')"
                             class="form-control mb-3" id="BookMarkerName" placeholder="Bookmark Name">
                         <div id="nameAlert" class="alert alert-danger d-none " role="alert">
                             Name is not valid !!!
@@ -90,7 +90,7 @@
                     <div class="mb-3">
                         <i class="fa-solid fa-link"></i>
                         <label for="WebSiteURL" class="form-label">Site URL</label>
-                        <input type="text" onchange="regexTest('WebSiteURL','URL','URLalert')" class="form-control "
+                        <input type="text" oninput="regexTest('WebSiteURL','URL','URLalert')" class="form-control "
                             id="WebSiteURL" placeholder="Website URL">
                     </div>
                     <div id="URLalert" class="alert alert-danger d-none " role="alert">
